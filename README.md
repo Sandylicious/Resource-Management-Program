@@ -32,7 +32,7 @@ Mis à part les valeurs ci-haut, aucun autre message ne doit être affiché par 
 
 <summary>Exemple</summary>
 
-Dans l'exemple suivant on utilise le programme [`bench`](./tests/bench.c).
+Dans l'exemple suivant on utilise le programme [`bench`].
 
 <pre>
 <b>iam@groot:~/$</b> time tests/bench -cpu
@@ -59,7 +59,7 @@ sys	0m0,000s
 
 ### Traitement des erreurs et valeur de retour
 
-- Si un appel système fait par `singsing`, peu importe lequel, échoue, alors `singsing` doit s'arrêter et retourner la valeur `1`. **Aucun message d'erreur ne doit être affiché**.
+- Si un appel système fait par `singsing`, peu importe lequel, échoue, alors `singsing` doit s'arrêter et retourner la valeur `1`. Aucun message d'erreur ne sera  affiché.
 - Si `CMD_LINE` se termine à cause d'un signal reçu, `singsing` va afficher le numéro du signal et retourner `1`.
 - Si `CMD_LINE` se termine normalement, `singsing` va afficher la valeur retournée par `CMD_LINE` et retourner `0`.
 - Si `singsing` est exécutée avec l'option `-p` alors il retournera `0` (sauf si, évidemment, un des appels systèmes de `singsing` a échoué).
