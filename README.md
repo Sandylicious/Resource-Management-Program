@@ -1,6 +1,6 @@
 # singsing
 
-Ce programme permet d'appliquer trois limites de ressource sur un processus selon les arguments saisis par l'utilisateur, une limite au temps CPU (en seconde), une limite sur la taille de la mémoire virtuelle (en octets) et une limite sur la taille d'un fichier que le processus peut créer (en octets). Dans le cas ou la nouvelle valeur de la limite vaut -1, aucune modification ne sera apportée a l'ancienne limite.
+Ce programme permet d'appliquer trois limites de ressource sur un processus selon les arguments saisis par l'utilisateur, une limite au temps CPU (en seconde), une limite sur la taille de la mémoire virtuelle (en octets) et une limite sur la taille d'un fichier que le processus peut créer (en octets). Dans le cas où la nouvelle valeur de la limite vaut -1, aucune modification ne sera apportée a l'ancienne limite.
 
 ## Description de l'outil
 
